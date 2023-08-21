@@ -1,4 +1,4 @@
-exports.seed = (knex) => {
+export const seed = (knex) => {
   return knex('Comments').insert([
     {
       id: 1,
